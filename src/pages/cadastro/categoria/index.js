@@ -44,6 +44,7 @@ function CadastroCategoria(){
             }}>
                 <FormField
                     label={"Nome da Categoria"}
+                    typeTag={'input'}
                     type = {'text'}
                     name = {'nome'}
                     value = {values.nome}
@@ -51,13 +52,15 @@ function CadastroCategoria(){
                 />
                 <FormField
                     label= {'Descrição'}
+                    typeTag={'textarea'}
                     type = {'text'}
                     name = {'descricao'}
                     value = {values.descricao}
                     onChange={handleChange}
                 />
                 <FormField
-                    label= {'Cor: '}
+                    label= {'Cor'}
+                    typeTag={'input'}
                     type = {'color'}
                     name = {'cor'}
                     value = {values.cor}
