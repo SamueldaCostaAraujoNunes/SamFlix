@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.a`
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -14,7 +14,7 @@ const Button = styled.a`
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity .3s;
+    transition: opacity .6s;
     &:hover,
     &:focus {
     opacity: .5;
