@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.a`
-    color: var(--primary);
+    color: var(--white);
     border: 1px solid var(--primary);
     box-sizing: border-box;
     cursor: pointer;

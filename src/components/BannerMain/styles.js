@@ -122,10 +122,5 @@ export const WatchButton = styled.button`
   opacity: .5;
   @media (max-width: 800px) {
     display: block;
-    color: var(--primary);
-    border: 1px solid var(--primary);
-    &:hover,
-    &:focus {
-    opacity: .5;
   }
 `;
